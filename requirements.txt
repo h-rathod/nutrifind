@@ -3,3 +3,4 @@ protobuf==5.27.1
 pymongo==4.7.3
 python-dotenv==1.0.1
 streamlit==1.32.2
+google-generativeai
