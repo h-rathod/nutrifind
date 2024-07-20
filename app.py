@@ -11,6 +11,9 @@ import datetime
 import warnings
 warnings.filterwarnings(action="ignore")
 
+img=Image.open('nutrifind.png')
+t.beta_set_page_config(page_title='NutriFind', page_icon=img)
+
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
